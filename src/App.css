@@ -1,4 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+body{
+  font-family: 'PT Serif';
+}
+
 .icon{
+  position: relative;
   height:30px;
   width: 30px;
+  top: 10px;
+  margin-right: 10px;
 }
+.image-slide{
+  height: 800px;
+  width:1200px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.tester{
+  height: 300px;
+  width: 300px;
+  background-color: blue;
+}
+.navbar-component{
+  display: flex;
+  width:100%;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+}
+.navbar{
+  
+  background-color: brown;
+  width:63%;
+  height: 62px;
+
+  padding-top: 20px;
+  
+}
+
+.carousel{ /*Use Flex box for this, it'll save you a headache */
+  margin-top: 160px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-grow:1;
+}
+
+.footer{
+  display: flex;
+  position: static;
+  bottom: 0;
+  margin-top: 15px;
+  width: 100%;
+  height: 35px;
+  align-items: center;
+  
+  background-color: rgb(36, 36, 36);
+}
+
+.footer p{
+  color:white;
+}
+.body-component{
+  margin-top: 120px;
+  margin-left: 36px;
+  margin-right: 36px;
+}
+
+.body-component h1{
+  font-size: 55px;
+}
+.body-component h2{
+  font-size:15px;
+}
+.body-container{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  
+}
+.half-1{
+  width: 30%;
+  
+}
+.half-1 h1{
+  width: 50%;
+}
+.half-2{
+  position: relative;
+  top:30px;
+  width: 30%;
+  float: left;
+}
+.half-2 h1{
+  margin-top: 62px;
+  font-size: 30px;
+}
+.half-2 li{
+  margin-bottom: 14px;
+  list-style-type: none;
+}
+.half-2 ul{
+  margin-top: 18%;
+}
+/*IDs*/
+
+#kim{
+  height: 220px;
+  width: 40%;
+  border-radius: 50%;
+}
+.title{
+  display: flex;
+  width: 100%;
+}
+.title h2{
+  font-size: 10px;
+}
+.title h1{
+  margin-top: 10%;
+  font-size: 30px;
+  margin-left:20px;
+}
+#brief-history{
+  width:100%;
+  font-size:18px;
+  padding-bottom: 20px;
+
+}
+#navbar-title{
+  text-align: center;
+}
+#navbar-title-line{
+  background-color: black;
+  width: 63%;
+  height: 10px;
+  margin:0;
+}
+

@@ -6,15 +6,17 @@ import paintbrush from "../images/paintbrush.png"
 
 function Navbar(){
     return(
-        <div>
-            <navbar>
-                <h1>Kim Jung gi</h1>
-               <a href="https://www.kimjunggius.com/">Official Website<img src={paintbrush} className="icon"></img></a>
+        <div className="navbar-component" >
+            <h1 id="navbar-title">Kim Jung Gi</h1>
+            <p id="navbar-title-line"></p>
+            <div className="navbar">
+            <a href="https://www.kimjunggius.com/"><img src={paintbrush} className="icon"></img></a>
                <a href="https://www.instagram.com/kimjunggius/?hl=en"><img src={instagram} className="icon"></img></a>
                <a href="https://www.facebook.com/kimjunggius/"><img src={facebook} className="icon"></img></a> 
                <a href="https://twitter.com/KimJungGiUS?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src={twitter} className="icon"></img></a> 
                <a href=""></a>
-            </navbar>
+            </div>
+              
         </div>
     );
 }
